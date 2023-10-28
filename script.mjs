@@ -1,14 +1,15 @@
-function convertValues(event){
-   event.preventDefault();
-   console.log("function is running");
+function convertCelsiusToFahrenheit() {
+   // Get the value entered by the user
+   var celsius = parseFloat(document.getElementById('celsiusInput').value);
 
-   let DegreeCelsius = document.querySelector("#DegreeCelsius").value;
-   console.log(DegreeCelsius)
-
-   let result = Number(DegreeCelsius) sssss
-   console.log(result)
-
-   let resultMessage = 
-   `$(DegreeCelsius) in Fahrenheit = $(result)`
-   document.querySelector("#resultWindow").innerHTML = resultMessage;
+   // Check if the input is a valid number
+   if (!isNaN(celsius)) {
+       // Convert Celsius to Fahrenheit
+       var fahrenheit = (celsius * 9/5) + 32;
+       // Display the result
+       document.getElementById('result').innerHTML = celsius + " Degrees Celsius =  " + fahrenheit.toFixed(2) + " Degrees Fahrenheit.";
+   } else {
+       // Display an error message if the input is not a valid number
+       document.getElementById('result').innerHTML = "Please enter a valid number for Celsius.";
+   }
 }
