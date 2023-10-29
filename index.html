@@ -10,12 +10,14 @@
     <br>
         (CELSIUS TO FAHRENHEIT)
     <br>
+    <form onsubmit="convertValues(event)">
     </u></center></h1>
     <label><h2><u>Temperature in Celsius:</u></h2></label>
     <input type="number" id="celsiusInput" placeholder="Enter Celsius">
     <br>
     <br>
-    <button onclick="convertCelsiusToFahrenheit()">Convert</button>
+    <button type="submit">Convert</button>
+    </form>
     <p id="result"></p>
 
     <script src="script.mjs"></script>
