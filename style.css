@@ -1,0 +1,9 @@
+body{background-image: url(img.jpg/full-moon-dark-background-cloudy-sky-stars-digital-art-5k-8k-6016x3384-5589.jpg);}/* From https://css.glass */
+
+div{
+    background: rgba(84, 46, 46, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(84, 46, 46, 0.52);}
