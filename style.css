@@ -1,9 +1,32 @@
-body{background-image: url(img.jpg/full-moon-dark-background-cloudy-sky-stars-digital-art-5k-8k-6016x3384-5589.jpg);}/* From https://css.glass */
+body
+{background-image: url(img.jpg/full-moon-dark-background-cloudy-sky-stars-digital-art-5k-8k-6016x3384-5589.jpg);
+background-size: cover;
+color:#F4DDE5 ;
+border-radius: 10px 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-size: x-large;
+}
 
 div{
-    background: rgba(84, 46, 46, 0.26);
+    background: rgba(167, 69, 102, 0.26);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.2px);
     -webkit-backdrop-filter: blur(3.2px);
-    border: 1px solid rgba(84, 46, 46, 0.52);}
+    border: 1px solid rgba(84, 46, 46, 0.52);
+    padding: 50px;;}
+
+ button{
+    font-size: xx-large;
+    border-radius:5px;
+    border-color: pink;
+    color: #F4DDE5;
+    background-color:#D56C57 ;
+ }
+
+ .placeholder{
+    font-size:x-large;
+ }
